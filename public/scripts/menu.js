@@ -7,6 +7,9 @@ if(window.innerWidth >= 768) {
     menuIconOpen.style.display = "none"
     menuIconClose.style.display = "none"
 } else {
+    menuIconOpen.style.display = "block"
+    menuIconClose.style.display = "none"
+    
     menuIconOpen.addEventListener('click', () => {
         menuIconOpen.style.display = "none"
         menuIconClose.style.display = "block"
