@@ -21,9 +21,4 @@ menuIconClose.addEventListener('click', () => {
     menuIconOpen.style.display = "block"
     menuIconClose.style.display = "none"
     menuItems.style.display = "none"
-
-    if(window.innerWidth >= 768) {
-        menuIconOpen.style.display = "none"
-        menuIconClose.style.display = "none"
-    }
 })
