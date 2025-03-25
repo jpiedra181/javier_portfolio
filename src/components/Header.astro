@@ -1,8 +1,11 @@
+<!-- Header -->
 <header>
     <section class="header flex justify-between items-center w-full h-24">
+        <!-- Logo -->
         <a href="#">
             <img src="icons/white_logo.svg" alt="" class="logo w-40 md:w-56">
         </a>
+        <!-- Navigation -->
         <nav class="flex items-center gap-4 md:gap-8 xl:gap-12">
             <ul class="hidden md:flex md:gap-4 md:text-lg">
                 <li><a href="#" class="hover:text-amber-200">Home</a></li>
@@ -10,6 +13,7 @@
                 <li><a href="#skills" class="hover:text-amber-200">Skills</a></li>
                 <li><a href="#contact"class="hover:text-amber-200">Contact</a></li>
             </ul>
+            <!-- Mobile Navigation Button -->
             <button class="menuIconOpen md:hidden cursor-pointer">
                 <img src="icons/menu_icon_white.svg" alt="" class="openMenu w-8 md:hidden">
             </button>
@@ -18,6 +22,7 @@
             </button>
         </nav>
     </section>
+    <!-- Mobile Menu -->
     <section class="menuItems hidden w-full h-[calc(100vh-theme(height.24))] p-10">
         <section class="flex flex-col items-center gap-12 w-full h-full border-2 border-amber-200 rounded-lg p-10 shadow-inner shadow-amber-200">
             <ul class="flex flex-col items-center gap-12 text-2xl font-semibold">
@@ -36,4 +41,5 @@
     </section>
 </header>
 
+<!-- JavaScript file to create the transition for the menu items between mobile and tablet/desktop.  -->
 <script src="scripts/menu.js" defer></script>
