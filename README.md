@@ -1,48 +1,49 @@
-# Astro Starter Kit: Basics
+# 🌐 Javier's Developer Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my personal portfolio! This site showcases my frontend development skills through real-world projects built using modern technologies. It's fully responsive and designed with performance and accessibility in mind.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+🔗 **Live Preview:** [jpiedra181.github.io/javier_portfolio](https://jpiedra181.github.io/javier_portfolio/)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🚀 Tech Stack
 
-## 🚀 Project Structure
+- [Astro](https://astro.build/)
+- HTML
+- CSS
+- Tailwind CSS
+- JavaScript
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📁 Projects Included
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+1. **Ecommerce + API Integration**  
+   A dynamic store interface that fetches products from an external API and displays them with category filters.
 
-## 🧞 Commands
+2. **Todo App Website**  
+   A minimalist and functional to-do list web app with smooth UI interactions.
 
-All commands are run from the root of the project, from a terminal:
+3. **Discord Clone Website**  
+   A responsive landing page inspired by Discord’s UI and layout.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+4. **Mobile Figma Prototype**  
+   A design prototype optimized for mobile devices, created in Figma.
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## ⚙️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jpiedra181/javier_portfolio.git
+2. Navigate to the project folder:
+   ```bash
+   cd javier_portfolio
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run dev
+
