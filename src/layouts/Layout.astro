@@ -27,9 +27,7 @@ const { title } = Astro.props
 	<body class="m-0 px-8 md:px-14 xl:px-32 w-full flex flex-col relative">
 		<Header />
 		<slot />
-		<article class="absolute top-96 right-12 p-4 bg-white text-black rounded-lg shadow-md">
-			<p class="text-sm">TOP</p>
-		</article>
+		<a href="#" class="fixed top-[750px] right-16 p-4 bg-white text-black font-semibold rounded-lg shadow-md cursor-pointer">↑ TOP</a>
 		<Footer />
 	</body>
 </html>
