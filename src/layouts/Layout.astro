@@ -24,9 +24,12 @@ const { title } = Astro.props
 		<!-- JavaScript -->
 		<!-- <script src="/scripts/contacForm.js" defer></script> -->
 	</head>
-	<body class="m-0 px-8 md:px-14 xl:px-32 w-full flex flex-col">
+	<body class="m-0 px-8 md:px-14 xl:px-32 w-full flex flex-col relative">
 		<Header />
 		<slot />
+		<article class="absolute top-96 right-12 p-4 bg-white text-black rounded-lg shadow-md">
+			<p class="text-sm">TOP</p>
+		</article>
 		<Footer />
 	</body>
 </html>
