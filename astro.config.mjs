@@ -3,10 +3,12 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
+const isNetlify = process.env.NETLIFY;
+
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://jpiedra181.github.io',
-  base: 'javier_portfolio',
+  site: isNetlify ? 'https://jpiedra181.github.io' : 'https://jpiedra181.github.io/javier_portfolio',
+  base: isNetlify ? '/' : '/javier_portfolio/',
   vite: {
     plugins: [tailwindcss()]
   }
