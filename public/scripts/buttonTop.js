@@ -1,4 +1,4 @@
-const buttonTop = document.querySelector(".scrollToTop")
+const buttonTop = document.getElementById("scrollToTop")
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 100) {
