@@ -15,13 +15,27 @@
             <img src="icons/javascript_icon.svg" alt="" class="w-24">
         </li>
         <li class="flex justify-center items-center">
-            <img src="icons/figma_icon.svg" alt="" class="w-24">
+            <img src="icons/figma_icon.svg" alt="" class="w-20">
         </li>
         <li class="flex flex-col items-center">
-            <img src="icons/react_icon.svg" alt="" class="w-20">
+            <img src="icons/react_icon.svg" alt="" class="autoRotate w-20">
         </li>
         <li class="flex flex-col items-center">
-            <img src="icons/typescript_icon.svg" alt="" class="w-20">
+            <img src="icons/typescript_icon.svg" alt="" class="w-24">
         </li>
     </ul>
 </section>
+
+<style>
+    .autoRotate{
+        animation: autoRotateAnimation;
+        animation-timeline: view();
+    }
+    @keyframes autoRotateAnimation{
+        from{
+            transform: rotate(0deg);
+        } to{
+            transform: rotate(360deg);
+        }
+    }
+</style>
