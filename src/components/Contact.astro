@@ -1,8 +1,8 @@
 <!-- Contact -->
 <section class="w-full pt-30 sm:px-20 md:px-24 lg:px-30 2xl:px-40 flex flex-col items-center gap-10" id="contact">
-    <h2 class="font-semibold text-4xl">Get in touch</h2>
+    <h2 class="autoTranslate font-semibold text-4xl">Get in touch</h2>
     <!-- Form -->
-    <form method="POST" id="form" class="w-full md:w-[500px] flex flex-col items-center gap-6 p-4">
+    <form method="POST" id="form" class="autoTranslate w-full md:w-[500px] flex flex-col items-center gap-6 p-4">
         <input type="hidden" name="access_key" value="452f4fa4-5270-4463-8bbf-01ea5e2f0585">
         <input type="text" id="name" name="name" class="w-full bg-white text-blue-950 px-4 py-2 rounded-2xl hover:shadow-sm hover:shadow-amber-400 focus:border-2 focus:border-amber-200 cursor-pointer" placeholder="Name" required>
         <input type="email" id="email" name="email" class="w-full bg-white text-blue-950 px-4 py-2 rounded-2xl hover:shadow-sm hover:shadow-amber-400 focus:border-2 focus:border-amber-200 cursor-pointer" placeholder="Email" required>
@@ -14,3 +14,20 @@
 
 <!-- This JavaScript file was designed so the user can send a message and get a notification if something went wrong or run successfully -->
 <script src="scripts/contactForm.js" defer></script>
+
+<style>
+    .autoTranslate{
+        animation: autoTranslateAnimation;
+        animation-timeline: view(30%);
+    }
+
+    @keyframes autoTranslateAnimation{
+        from{
+            opacity: 0;
+            transform: translateY(200px) scale(0.3);
+        } to{
+            opacity: 1;
+            transform: translateY(0) scale(1);
+        }
+    }
+</style>
