@@ -37,6 +37,62 @@ async function getProject() {
                     list.appendChild(icon)
                     techs.appendChild(list)
                 }
+                if(show.technologies.isCSS) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/css_icon.svg'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isTailwind) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/tailwindcss_icon.svg'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isJavaScript) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/javascript_icon.svg'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isFigma) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/figma.png'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isAstro) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/astro_icon.png'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isReact) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/react_icon.png'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
+                if(show.technologies.isTypeScript) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/typescript_icon.png'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
 
                 close.addEventListener('click', () => {
                     modal.style.display = 'none'
