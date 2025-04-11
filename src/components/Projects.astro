@@ -1,7 +1,7 @@
 <!-- Projects -->
 <section class="w-full sm:px-20 md:px-24 lg:px-30 2xl:px-40 flex flex-col gap-10 items-center py-20 xl:py-0" id="projects">
     <h2 class="autoTranslate font-semibold text-4xl">Projects</h2>
-    <section class="w-full flex flex-col gap-8">
+    <section class="w-full flex flex-col gap-8 md:hidden">
         <!-- Project: Ecommerce with API -->
         <article class="autoTranslate border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/ecommerce_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
@@ -73,18 +73,106 @@
             </section>
         </article>
     </section>
+    <section class="gridImages hidden md:grid">
+        <a href="" class="one">
+            <img src="images/todo_thumbnail.png" alt="">
+        </a>
+        <a href="" class="two">
+            <img src="images/ecommerce_thumbnail.png" alt="">
+        </a>
+        <a href="" class="three">
+            <img src="images/discord_thumbnail.png" alt="">
+        </a>
+        <a href="" class="four">
+            <img src="images/foodie_thumbnail.png" alt="">
+        </a>
+        <a href="" class="five">
+            <img src="images/blog_thumbnail.png" alt="">
+        </a>
+        <a href="" class="six">
+            <img src="images/blog_thumbnail.png" alt="">
+        </a>
+    </section>
 </section>
 
 <style>
+
+    .gridImages {
+        padding: 40px 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(4, minmax(50px, 1fr));
+        grid-template-rows: repeat(3, 200px);
+        gap: 1rem;
+        width: 100%;
+        max-width: 950px;
+    }
+    .one {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 1 / 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .two {
+        object-fit: cover;
+        grid-column: 2 / 4;
+        grid-row: 1;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .three {
+        object-fit: cover;
+        grid-column: 4;
+        grid-row: 1 / 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .four {
+        align-items: center;
+        justify-content: center;
+        grid-column: 2 / 4;
+        grid-row: 2;
+        background-color: rgb(251, 205, 112);
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .five {
+        object-fit: cover;
+        grid-column: 1 / 3;
+        grid-row: 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .six {
+        object-fit: cover;
+        grid-column: 3 / 5;
+        grid-row: 3;
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+
     .autoTranslate{
         animation: autoTranslateAnimation both;
-        animation-timeline: view(20% 10%);
+        animation-timeline: view(10% 0%);
     }
 
     @keyframes autoTranslateAnimation{
         from{
             opacity: 0;
-            transform: translateY(200px) scale(0.3);
+            transform: translateY(50px) scale(0.3);
         } to{
             opacity: 1;
             transform: translateY(0) scale(1);
