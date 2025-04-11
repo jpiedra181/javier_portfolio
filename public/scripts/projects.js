@@ -8,6 +8,10 @@ const description = document.querySelector('.description')
 const link = document.querySelector('.link')
 const techs = document.querySelector('.tech')
 
+close.addEventListener('click', () => {
+    modal.style.display = 'hidden'
+})
+
 async function getProject() {
     try{
         const response = await fetch('docs/projects.json')
@@ -24,7 +28,7 @@ async function getProject() {
                 if(project.classList.contains('blog')) {show = data.projects[4]}
                 if(project.classList.contains('game')) {show = data.projects[5]}
                 console.log(show)
-                modal.style.display = 'block'
+                modal.style.display = 'flex'
                 title.innerHTML = show.title
                 description.innerHTML = show.description
                 image.src = show.image

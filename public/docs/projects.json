@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Ecommerce + API",
         "description": "I built a simple product page where users can see different items presented dynamically with an API, add them to a shopping cart, and view both the selected products and the total cost.",
-        "image": "images/ecommerce_thumbnail.png",
+        "image": "images/ecommerce.png",
         "link": "https://jpiedra181.github.io/ecommerce/",
         "technologies": {
             "isHTML": true,
@@ -21,7 +21,7 @@
         "id": 2,
         "title": "ToDo App Website",
         "description": "This project aims to imitate a platform in which you can add and remove a list of tasks individually or within a project. You can also collaborate with a team, and see which tasks other people have implemented or are working on.",
-        "image": "images/todo_thumbnail.png",
+        "image": "images/mobile-image.png",
         "link": "https://jpiedra181.github.io/todo-app-vite/",
         "technologies": {
             "isHTML": true,
@@ -38,7 +38,7 @@
         "id": 3,
         "title": "Discord Clone Website",
         "description": "This is an exercise to demonstrate my skills mainly with Tailwind. It includes some basic functionality, but the main purpose is to work with Flexbox and Grid and understand how different elements behave.",
-        "image": "images/discord_thumbnail.png",
+        "image": "images/discord_img.png",
         "link": "https://jpiedra181.github.io/discord-app-clone/",
         "technologies": {
             "isHTML": true,
@@ -89,7 +89,7 @@
         "id": 6,
         "title": "Quizz Game",
         "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
-        "image": "images/blog_thumbnail.png",
+        "image": "images/quizz_game_thumbnail.png",
         "link": "https://jpiedra181.github.io/quiz/",
         "technologies": {
             "isHTML": true,
