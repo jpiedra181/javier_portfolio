@@ -21,6 +21,7 @@ async function getProject() {
                 if(project.classList.contains('foodie')) {let show = data.projects[3]}
                 if(project.classList.contains('blog')) {let show = data.projects[4]}
                 if(project.classList.contains('game')) {let show = data.projects[5]}
+                console.log(show)
                 modal.style.display = 'flex'
                 modal.classList.add('w-screen h-screen blur-3xl justify-center items-center')
                 title.innerHTML = show.title
