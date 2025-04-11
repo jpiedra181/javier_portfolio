@@ -15,6 +15,7 @@ async function getProject() {
         console.log(data)
         projects.forEach((project) => {
             project.addEventListener('click', () => {
+                console.log(project)
                 if(project.classList.contains('ecommerce')) {let show = data.projects[0]}
                 if(project.classList.contains('todo')) {let show = data.projects[1]}
                 if(project.classList.contains('discord')) {let show = data.projects[2]}
@@ -22,7 +23,7 @@ async function getProject() {
                 if(project.classList.contains('blog')) {let show = data.projects[4]}
                 if(project.classList.contains('game')) {let show = data.projects[5]}
                 console.log(show)
-                modal.style.display = 'flex'
+                modal.style.display = 'block'
                 modal.classList.add('w-screen h-screen blur-3xl justify-center items-center')
                 title.innerHTML = show.title
                 description.innerHTML = show.description
