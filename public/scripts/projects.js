@@ -25,7 +25,6 @@ async function getProject() {
                 if(project.classList.contains('game')) {show = data.projects[5]}
                 console.log(show)
                 modal.style.display = 'block'
-                modal.classList.add('w-screen', 'h-screen', 'blur-3xl', 'justify-center', 'items-center')
                 title.innerHTML = show.title
                 description.innerHTML = show.description
                 image.src = show.image
