@@ -1,6 +1,7 @@
 {
     "projects": [
       {
+        "id": 1,
         "title": "Ecommerce + API",
         "description": "I built a simple product page where users can see different items presented dynamically with an API, add them to a shopping cart, and view both the selected products and the total cost.",
         "image": "alice@example.com",

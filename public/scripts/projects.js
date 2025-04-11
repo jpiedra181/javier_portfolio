@@ -1,13 +1,42 @@
 const projects = document.querySelectorAll(".project")
 
-projects.forEach((project) => {
+async function getProject() {
     try{
-        async function getProject() {
-            const response = await fetch('docs/projects.json')
-            const data = await response.json()
-            console.log(data)
-        }
+        const response = await fetch('docs/projects.json')
+        const data = await response.json()
+        console.log(data)
+        projects.forEach((project) => {
+
+        })
     } catch{
 
     }
-})
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
