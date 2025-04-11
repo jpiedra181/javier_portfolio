@@ -12,10 +12,9 @@ async function getProject() {
     try{
         const response = await fetch('docs/projects.json')
         const data = await response.json()
-        console.log(data)
         projects.forEach((project) => {
             project.addEventListener('click', () => {
-                console.log(project)
+                techs.innerHTML = ''
                 let show
                 if(project.classList.contains('ecommerce')) {show = data.projects[0]}
                 if(project.classList.contains('todo')) {show = data.projects[1]}
