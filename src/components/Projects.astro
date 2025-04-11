@@ -73,7 +73,7 @@
             </section>
         </article>
     </section>
-    <section class="hidden md:grid md:gap-8 md:gridImages">
+    <section class="hidden md:grid md:gap-3 md:gridImages">
         <a href="" class="one overflow-hidden">
             <img src="images/todo_thumbnail.png" alt="" class="one transition-transform duration-300 ease-in-out hover:scale-110">
         </a>
@@ -103,14 +103,14 @@
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(4, minmax(50px, 1fr));
-        grid-template-rows: repeat(3, 200px);
+        grid-template-rows: repeat(4, 200px);
         gap: 1rem;
         width: 100%;
         max-width: 950px;
     }
     .one {
         object-fit: cover;
-        grid-column: 1;
+        grid-column: 1 / 3;
         grid-row: 1 / 3;
         background-color: red;
         width: 100%;
@@ -119,7 +119,7 @@
     }
     .two {
         object-fit: cover;
-        grid-column: 2 / 4;
+        grid-column: 3 / 5;
         grid-row: 1;
         background-color: red;
         width: 100%;
@@ -128,8 +128,8 @@
     }
     .three {
         object-fit: cover;
-        grid-column: 4;
-        grid-row: 1 / 3;
+        grid-column: 3 / 5;
+        grid-row: 3 / 5;
         background-color: red;
         width: 100%;
         height: 100%;
@@ -138,7 +138,7 @@
     .four {
         align-items: center;
         justify-content: center;
-        grid-column: 2 / 4;
+        grid-column: 3 / 5;
         grid-row: 2;
         background-color: rgb(251, 205, 112);
         width: 100%;
@@ -156,8 +156,8 @@
     }
     .six {
         object-fit: cover;
-        grid-column: 3 / 5;
-        grid-row: 3;
+        grid-column: 1 / 3;
+        grid-row: 4;
         background-color: red;
         width: 100%;
         height: 100%;
