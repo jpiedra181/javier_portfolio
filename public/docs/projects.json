@@ -4,8 +4,93 @@
         "id": 1,
         "title": "Ecommerce + API",
         "description": "I built a simple product page where users can see different items presented dynamically with an API, add them to a shopping cart, and view both the selected products and the total cost.",
-        "image": "alice@example.com",
-        "link": "images/ecommerce_thumbnail.png",
+        "image": "images/ecommerce_thumbnail.png",
+        "link": "https://jpiedra181.github.io/ecommerce/",
+        "technologies": {
+            "isHTML": true,
+            "isCSS": true,
+            "isTailwind": true,
+            "isJavaScript": true,
+            "isFigma": false,
+            "isAstro": false,
+            "isReact": false,
+            "isTypeScript": false
+        }
+      },
+      {
+        "id": 2,
+        "title": "ToDo App Website",
+        "description": "This project aims to imitate a platform in which you can add and remove a list of tasks individually or within a project. You can also collaborate with a team, and see which tasks other people have implemented or are working on.",
+        "image": "images/todo_thumbnail.png",
+        "link": "https://jpiedra181.github.io/todo-app-vite/",
+        "technologies": {
+            "isHTML": true,
+            "isCSS": true,
+            "isTailwind": true,
+            "isJavaScript": true,
+            "isFigma": false,
+            "isAstro": false,
+            "isReact": false,
+            "isTypeScript": false
+        }
+      },
+      {
+        "id": 3,
+        "title": "Discord Clone Website",
+        "description": "This is an exercise to demonstrate my skills mainly with Tailwind. It includes some basic functionality, but the main purpose is to work with Flexbox and Grid and understand how different elements behave.",
+        "image": "images/discord_thumbnail.png",
+        "link": "https://jpiedra181.github.io/discord-app-clone/",
+        "technologies": {
+            "isHTML": true,
+            "isCSS": true,
+            "isTailwind": true,
+            "isJavaScript": true,
+            "isFigma": false,
+            "isAstro": false,
+            "isReact": false,
+            "isTypeScript": false
+        }
+      },
+      {
+        "id": 4,
+        "title": "Foodie App",
+        "description": "As a Frontend Developer I think it is very important to have some knowledge about UI design. This is where Figma comes in. So, I built a prototype from scratch for mobiles. I designed several pages, trying to replicate a real app. I found the outcome very interesting.",
+        "image": "images/foodie_thumbnail.png",
+        "link": "http://bit.ly/3XWkQ75",
+        "technologies": {
+            "isHTML": true,
+            "isCSS": true,
+            "isTailwind": true,
+            "isJavaScript": true,
+            "isFigma": false,
+            "isAstro": false,
+            "isReact": false,
+            "isTypeScript": false
+        }
+      },
+      {
+        "id": 5,
+        "title": "Travel Blog",
+        "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
+        "image": "images/blog_thumbnail.png",
+        "link": "https://jpiedra181.github.io/blog_travel/",
+        "technologies": {
+            "isHTML": true,
+            "isCSS": true,
+            "isTailwind": true,
+            "isJavaScript": true,
+            "isFigma": false,
+            "isAstro": false,
+            "isReact": false,
+            "isTypeScript": false
+        }
+      },
+      {
+        "id": 6,
+        "title": "Quizz Game",
+        "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
+        "image": "images/blog_thumbnail.png",
+        "link": "https://jpiedra181.github.io/quiz/",
         "technologies": {
             "isHTML": true,
             "isCSS": true,

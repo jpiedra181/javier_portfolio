@@ -1,9 +1,9 @@
 <!-- Projects -->
-<section class="w-full sm:px-20 md:px-24 lg:px-30 2xl:px-40 flex flex-col gap-10 items-center py-20 xl:py-0" id="projects">
+<section class="w-full sm:px-20 md:px-24 lg:px-30 2xl:px-40 flex flex-col gap-10 items-center py-20 xl:py-0 relative" id="projects">
     <h2 class="autoTranslate font-semibold text-4xl">Projects</h2>
     <section class="w-full flex flex-col gap-8 md:hidden">
         <!-- Project: Ecommerce with API -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project ecommerce border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/ecommerce_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">Ecommerce + API</h3>
@@ -18,7 +18,7 @@
             </section>
         </article>
         <!-- Project: ToDo App -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project todo border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/todo_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">ToDo App Website</h3>
@@ -33,7 +33,7 @@
             </section>
         </article>
         <!-- Project: Discord Clone -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project discord border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/discord_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">Discord Clone Website</h3>
@@ -47,7 +47,7 @@
             </section>
         </article>
         <!-- Project: Foodie App -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project foodie border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/foodie_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">Foodie App</h3>
@@ -59,7 +59,7 @@
             </section>
         </article>
         <!-- Project: Blog -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project blog border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/blog_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">Travel Blog</h3>
@@ -73,7 +73,7 @@
             </section>
         </article>
         <!-- Project: Quizz Game -->
-        <article class="autoTranslate project border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
+        <article class="autoTranslate project game border-2 w-full rounded-2xl p-4 md:p-10 2xl:px-30 flex flex-col lg:flex-row gap-6 2xl:gap-12 justify-between shadow-md shadow-amber-100">
             <img src="images/blog_thumbnail.png" alt="" class="w-full lg:w-80 rounded-lg object-cover object-center">
             <section class="flex flex-col gap-4 w-full justify-between">
                 <h3 class="font-semibold text-2xl">Quizz Game</h3>
@@ -107,13 +107,26 @@
             <img src="images/quizz_game_thumbnail.png" alt="" class="six transition-transform duration-300 ease-in-out hover:scale-110">
         </a>
     </section>
+    <section class="absolute modal hidden">
+        <div class="projectInfo bg-orange-950 rounded-3xl flex flex-col gap-8">
+            <button class="close">X</button>
+            <div class="flex gap-8">
+                <img src="" alt="" class="projectImage w-80 rounded-lg object-cover object-center">
+                <div class="flex flex-col gap-4">
+                    <h3 class="title"></h3>
+                    <p class="description"></p>
+                    <a href="" class="link text-amber-200 hover:text-amber-300">View Project</a>
+                    <ul class="tech flex gap-4"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </section>
 
 <!-- Javascript file to implement some functionality with the projects in desktop and tablet -->
 <script src="scripts/projects.js" defer></script>
 
 <style>
-
     .gridImages {
         padding: 40px 20px;
         display: grid;
@@ -179,6 +192,8 @@
         height: 100%;
         border-radius: 24px;
     }
+
+
 
     /* .autoTranslate{
         animation: autoTranslateAnimation both;
