@@ -8,10 +8,6 @@ const description = document.querySelector('.description')
 const link = document.querySelector('.link')
 const techs = document.querySelector('.tech')
 
-close.addEventListener('click', () => {
-    modal.style.display = 'hidden'
-})
-
 async function getProject() {
     try{
         const response = await fetch('docs/projects.json')
@@ -33,7 +29,18 @@ async function getProject() {
                 description.innerHTML = show.description
                 image.src = show.image
                 link.href = show.link
+                if(show.technologies.isHTML) {
+                    const list = document.createElement('li')
+                    const icon = document.createElement('img')
+                    icon.src = 'icons/html_icon.svg'
+                    icon.classList.add('w-8', 'h-8')
+                    list.appendChild(icon)
+                    techs.appendChild(list)
+                }
 
+                close.addEventListener('click', () => {
+                    modal.style.display = 'none'
+                })
             })
         })
     } catch (error){
