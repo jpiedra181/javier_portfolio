@@ -3,7 +3,8 @@ const menuIconClose = document.querySelector('.menuIconClose')
 const menuItems = document.querySelector('.menuItems')
 const items = document.querySelectorAll('.item')
 const langBtn = document.getElementById('langBtn')
-const resume = document.querySelector('resume')
+const resume = document.querySelector('.resume')
+const resumeMobile = document.querySelector('.resume_mobile')
 
 // Menu Icon
 menuIconOpen.addEventListener('click', () => {
@@ -37,8 +38,10 @@ function updateLanguage(lang) {
 
     if(lang === 'en') {
         resume.href = 'docs/Javier_Piedra_CV_en.pdf'
+        resumeMobile.href = 'docs/Javier_Piedra_CV_en.pdf'
     } else {
         resume.href = 'docs/Javier_Piedra_CV_es.pdf'
+        resumeMobile.href = 'docs/Javier_Piedra_CV_es.pdf'
     }
   }
   
