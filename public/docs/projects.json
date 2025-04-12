@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Ecommerce + API",
         "description": "I built a simple product page where users can see different items presented dynamically with an API, add them to a shopping cart, and view both the selected products and the total cost.",
-        "image": "images/ecommerce.png",
+        "image": "images/ecommerce_vr.png",
         "link": "https://jpiedra181.github.io/ecommerce/",
         "technologies": {
             "isHTML": true,
@@ -55,7 +55,7 @@
         "id": 4,
         "title": "Foodie App",
         "description": "As a Frontend Developer I think it is very important to have some knowledge about UI design. This is where Figma comes in. So, I built a prototype from scratch for mobiles. I designed several pages, trying to replicate a real app. I found the outcome very interesting.",
-        "image": "images/foodie_thumbnail.png",
+        "image": "images/foodie_app_vr.png",
         "link": "http://bit.ly/3XWkQ75",
         "technologies": {
             "isHTML": true,
@@ -72,7 +72,7 @@
         "id": 5,
         "title": "Travel Blog",
         "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
-        "image": "images/blog_thumbnail.png",
+        "image": "images/blog_vr.png",
         "link": "https://jpiedra181.github.io/blog_travel/",
         "technologies": {
             "isHTML": true,
@@ -89,7 +89,7 @@
         "id": 6,
         "title": "Quizz Game",
         "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
-        "image": "images/quizz_game_thumbnail.png",
+        "image": "images/quizz_game_vr.png",
         "link": "https://jpiedra181.github.io/quiz/",
         "technologies": {
             "isHTML": true,
