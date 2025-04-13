@@ -87,7 +87,7 @@
       },
       {
         "id": 6,
-        "title": "Quizz Game",
+        "title": "Quiz Game",
         "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
         "image": "images/quizz_game_vr.png",
         "link": "https://jpiedra181.github.io/quiz/",

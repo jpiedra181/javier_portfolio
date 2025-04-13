@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "Ecommerce + API",
-        "description": "I built a simple product page where users can see different items presented dynamically with an API, add them to a shopping cart, and view both the selected products and the total cost.",
+        "description": "Tienda online donde los usuarios pueden ver diferentes artículos presentados dinámicamente con una llamada a una API, agregarlos a un carrito de compras y ver los productos seleccionados y el coste total.",
         "image": "images/ecommerce_vr.png",
         "link": "https://jpiedra181.github.io/ecommerce/",
         "technologies": {
@@ -19,8 +19,8 @@
       },
       {
         "id": 2,
-        "title": "ToDo App Website",
-        "description": "This project aims to imitate a platform in which you can add and remove a list of tasks individually or within a project. You can also collaborate with a team, and see which tasks other people have implemented or are working on.",
+        "title": "App Web Lista Tareas",
+        "description": "Este proyecto pretende imitar una plataforma que permite añadir y eliminar tareas individualmente o dentro de un proyecto. También permite colaborar con un equipo y ver qué tareas han implementado o en qué están trabajando otras personas.",
         "image": "images/mobile-image.png",
         "link": "https://jpiedra181.github.io/todo-app-vite/",
         "technologies": {
@@ -36,8 +36,8 @@
       },
       {
         "id": 3,
-        "title": "Discord Clone Website",
-        "description": "This is an exercise to demonstrate my skills mainly with Tailwind. It includes some basic functionality, but the main purpose is to work with Flexbox and Grid and understand how different elements behave.",
+        "title": "Clon Discord Web",
+        "description": "Este es un ejercicio para demostrar mis habilidades, principalmente con Tailwind. Incluye algunas funciones básicas, pero el objetivo principal es trabajar con Flexbox y Grid y comprender el comportamiento de los diferentes elementos.",
         "image": "images/discord_img.png",
         "link": "https://jpiedra181.github.io/discord-app-clone/",
         "technologies": {
@@ -54,7 +54,7 @@
       {
         "id": 4,
         "title": "Foodie App",
-        "description": "As a Frontend Developer I think it is very important to have some knowledge about UI design. This is where Figma comes in. So, I built a prototype from scratch for mobiles. I designed several pages, trying to replicate a real app. I found the outcome very interesting.",
+        "description": "Como desarrollador frontend, creo que es muy importante tener nociones acerca del diseño de UI. Aquí es donde entra Figma. Creé un prototipo desde cero para móviles. Diseñé varias páginas intentando replicar una aplicación real. El resultado me pareció muy interesante.",
         "image": "images/foodie_app_vr.png",
         "link": "http://bit.ly/3XWkQ75",
         "technologies": {
@@ -70,8 +70,8 @@
       },
       {
         "id": 5,
-        "title": "Travel Blog",
-        "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
+        "title": "Blog de Viajes",
+        "description": "En este caso, he diseñado un blog de viajes. Contiene varias páginas con información, imágenes y enlaces para comprender cómo funcionan los caminos y ver cómo puedo usar la plantilla que Astro proporciona.",
         "image": "images/blog_vr.png",
         "link": "https://jpiedra181.github.io/blog_travel/",
         "technologies": {
@@ -87,8 +87,8 @@
       },
       {
         "id": 6,
-        "title": "Quizz Game",
-        "description": "In this case I have designed a travel blog. It contains several pages with information, images and links with the purposes of understanding how paths work, and see how can I manipulate the template that Astro provides you.",
+        "title": "Juego Cuestionario",
+        "description": "¡Juguemos! ¿Quieres saber si eres tan inteligente como crees que eres? Pon a prueba tu conocimiento en diferentes áreas como Historia, Ciencia, Literatura y mucho más. Tendrás un cuestionario con 10 preguntas y cada intento las preguntas serán diferentes.",
         "image": "images/quizz_game_vr.png",
         "link": "https://jpiedra181.github.io/quiz/",
         "technologies": {
