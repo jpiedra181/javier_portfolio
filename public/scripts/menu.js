@@ -43,14 +43,14 @@ function updateLanguage(lang) {
         resume.href = 'docs/Javier_Piedra_CV_es.pdf'
         resumeMobile.href = 'docs/Javier_Piedra_CV_es.pdf'
     }
-  }
+}
   
 langBtn.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'es' : 'en'
-    localStorage.setItem('lang', currentLang)
-    window.location.reload()
     updateLanguage(currentLang)
-  });
+    // 🔔 Let everyone else know that the language has changed
+    window.dispatchEvent(new Event('languageChanged'));
+});
   
   // Init
   updateLanguage(currentLang);
