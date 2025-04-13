@@ -47,6 +47,7 @@ function updateLanguage(lang) {
   
 langBtn.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'es' : 'en'
+    localStorage.setItem('lang', currentLang)
     updateLanguage(currentLang)
   });
   
