@@ -9,16 +9,17 @@ const link = document.querySelector('.link')
 const techs = document.querySelector('.tech')
 
 // Change the language
-// let currentLangProjects = localStorage.getItem('lang') || 'en'
+let doc = ''
+
+if(localStorage.getItem('lang') === 'en') {
+    doc = 'docs/projects_en.json'    
+} else{
+    doc = 'docs/projects_es.json'
+} 
 
 async function getProject() {
     try{
-        let response
-        if(localStorage.getItem('lang') === 'en') {
-            response = await fetch('docs/projects_en.json')    
-        } else{
-            response = await fetch('docs/projects_es.json')
-        }
+        const response = await fetch(doc)
         const data = await response.json()
         projects.forEach((project) => {
             project.addEventListener('click', () => {
