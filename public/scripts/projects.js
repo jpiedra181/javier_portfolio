@@ -11,11 +11,9 @@ const techs = document.querySelector('.tech')
 // Change the language
 // let currentLangProjects = localStorage.getItem('lang') || 'en'
 
-let response = ''
-
-
 async function getProject() {
     try{
+        let response
         if(localStorage.getItem('lang') === 'en') {
             response = await fetch('docs/projects_en.json')    
         } else{
