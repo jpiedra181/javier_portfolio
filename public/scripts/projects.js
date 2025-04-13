@@ -8,12 +8,7 @@ const description = document.querySelector('.description')
 const link = document.querySelector('.link')
 const techs = document.querySelector('.tech')
 
-// Change the language
-
-window.addEventListener('languageChanged', () => {
-    // const lang = localStorage.getItem('lang');
-    // updateLanguage(lang); // or any custom function you use
-  
+// Change the language  
 
 let doc = ''
 
@@ -119,8 +114,6 @@ async function getProject() {
 }
 
 getProject()
-
-});
 
 
 
