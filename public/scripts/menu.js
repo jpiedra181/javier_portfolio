@@ -48,6 +48,7 @@ function updateLanguage(lang) {
 langBtn.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'es' : 'en'
     updateLanguage(currentLang)
+    window.location.reload()
   });
   
   // Init
