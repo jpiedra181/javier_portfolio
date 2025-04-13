@@ -1,5 +1,5 @@
 // Change the language
-let currentLangHero = localStorage.getItem('lang') || 'en'
+// let currentLangHero = localStorage.getItem('lang') || 'en'
 
 function updateLanguage(lang) {
     document.querySelectorAll('[data-en]').forEach(el => {
@@ -8,4 +8,4 @@ function updateLanguage(lang) {
 }
   
 // Init
-updateLanguage(currentLangHero);
+updateLanguage(localStorage.getItem('lang') || 'en');
