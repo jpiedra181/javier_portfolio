@@ -1,5 +1,6 @@
-const form = document.getElementById('form');
-const result = document.getElementById('result');
+const form = document.getElementById('form')
+const result = document.getElementById('result')
+const message = document.getElementById('message')
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -35,4 +36,21 @@ form.addEventListener('submit', function(e) {
                 result.style.display = "none";
             }, 3000);
         });
-});
+})
+
+// Change the language
+// let currentLangHero = localStorage.getItem('lang') || 'en'
+
+function updateLanguage(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.dataset[lang]
+    })
+    if (lang === 'es') {
+        message.placeholder = 'Escribe aquí tu mensaje...';
+      } else {
+        message.placeholder = 'Write here your message...';
+      }
+}
+  
+// Init
+updateLanguage(localStorage.getItem('lang') || 'en')
