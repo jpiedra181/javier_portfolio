@@ -11,7 +11,7 @@ const techs = document.querySelector('.tech')
 // Change the language
 // let currentLangProjects = localStorage.getItem('lang') || 'en'
 
-const response = ''
+let response = ''
 
 
 async function getProject() {
