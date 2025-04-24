@@ -37,11 +37,11 @@ function updateLanguage(lang) {
     localStorage.setItem('lang', lang)
 
     if(lang === 'en') {
-        resume.href = 'docs/Javier_Piedra_CV_en.pdf'
-        resumeMobile.href = 'docs/Javier_Piedra_CV_en.pdf'
+        resume.href = 'docs/CV_Javier_Piedra_en.pdf'
+        resumeMobile.href = 'docs/CV_Javier_Piedra_en.pdf'
     } else {
-        resume.href = 'docs/Javier_Piedra_CV_es.pdf'
-        resumeMobile.href = 'docs/Javier_Piedra_CV_es.pdf'
+        resume.href = 'docs/CV_Javier_Piedra_es.pdf'
+        resumeMobile.href = 'docs/CV_Javier_Piedra_es.pdf'
     }
 }
   
